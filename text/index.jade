@@ -1,0 +1,35 @@
+!!! 5
+html(lang='en')
+  include head.jade
+  // a(href='?theme=sky#/themes') Sky
+  body
+    .reveal
+      .slides
+
+        section(data-background='#cb4b16')#rare-commands
+          h1 &ldquo;Real Talk: Git&rdquo;
+          h3 Git Tricks, Solutions, + Internals
+          p
+            small Presented by
+              <a href='http://jm3.net'>John Manoogian III</a> &middot; <a href='http://twitter.com/jm3'>@jm3</a>
+
+        section(data-background='#222')#background
+          h1 Confession
+          h3 I'm kind of obsessed with version control.
+          aside.notes
+            | RCS. CVS. Subversion. Mercurial.. VOODOO
+
+        section(data-background='#222')#agenda
+          h1 Agenda
+          ul
+            li Commonly used commands
+            li Solving common problems
+            li What Git&rsquo;s really doing under the hood
+
+        include commands.jade
+        include terms.jade
+        include solutions.jade
+        include wrapup.jade
+
+    include footer.jade
+

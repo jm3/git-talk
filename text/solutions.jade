@@ -1,0 +1,43 @@
+section(data-background='#222')#problems
+  h1 Common Problems
+
+section(data-background='#5d8343')#customize-logging
+  h2 Problem:
+  h1 &ldquo;Where am I?&rdquo;
+  h3 Solution:
+  h3 Improve your git log
+  p git log --color --graph --pretty=format:'%Cblue%h%Creset -%C(yellow)%d%Creset %s %Cgreen%cr %C(white)%an' --abbrev-commit
+
+section(data-background='#5d8343')#undo-broken-merge
+  h2 Problem:
+  h1 &ldquo;I'm in merge jail&rdquo;
+  h3 Solution:
+  p git merge --abort
+
+section(data-background='#5d8343')#merge-v-rebase
+  h2 Problem:
+  h1 Merge vs. Rebase?
+  h2 Rebasing alters patches in order to advance the branch pointer.
+
+section(data-background='#5d8343')#amend-commit
+  h2 Problem:
+  h1 &ldquo;I over-/under-commited&rdquo;
+  h2 Solution:
+  p `git commit --amend`
+
+section(data-background='#5d8343')#interactive-rebase
+  h3 ...or
+  h1 Interactive Rebase
+  p git rebase -i HEAD~5
+
+section(data-background='#5d8343')#git-friendly
+  h2 Problem:
+  h1 &ldquo;So much to type!&rdquo;
+  h3 Solution: Install git-friendly!
+
+section(data-background='#5d8343')#option-completion
+  h2 Problem:
+  h1 &ldquo;Too many options!&rdquo;
+  h3 Solution: zsh (or bash) completion
+  h4 get this + git-friendly for free with @jm3/dotfiles
+

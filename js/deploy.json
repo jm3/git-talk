@@ -1,0 +1,6 @@
+{
+    "buckets" : {
+        "production" : "public.jm3.net"
+      , "canary"     : "public.jm3.net"
+    }
+}
