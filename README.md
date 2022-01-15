@@ -8,8 +8,10 @@ Evolving draft of an ongoing series of informal tech-talks
 
 #### Setup
 
-    tbd
+    npm i # install packages
 
-#### Copyright (C) 2013 John Manoogian III, http://jm3.net
+    npx parcel text/index.pug # run dev server
+
+#### Copyright © 2013-2022 John Manoogian III, https://www.jm3.net
 
 Uses Hakim's excellent [reveal.js](https://github.com/hakimel/reveal.js).
