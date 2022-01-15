@@ -1,2 +1,4 @@
+.parcel-cache
 build/*.html
+dist
 node_modules/

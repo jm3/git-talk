@@ -1,6 +1,6 @@
-!!! 5
+doctype html
 html(lang='en')
-  include head.jade
+  include head.pug
   // a(href='?theme=sky#/themes') Sky
   body
     .reveal
@@ -12,10 +12,10 @@ html(lang='en')
           p
             small By
               <a href='http://jm3.net'>John Manoogian III</a>
-              &nbsp;&middot;&nbsp;
+              | &nbsp;&middot;&nbsp;
               | Feedback to
               a(href='http://twitter.com/jm3') jm3
-              &nbsp;&middot;&nbsp;
+              | &nbsp;&middot;&nbsp;
               | on Github as
               a(href='http://github.com/jm3/git-talk') git-talk
 
@@ -32,10 +32,10 @@ html(lang='en')
             li Solving common problems
             li What Git&rsquo;s really doing under the hood
 
-        include commands.jade
-        include terms.jade
-        include solutions.jade
-        include wrapup.jade
+        include commands.pug
+        include terms.pug
+        include solutions.pug
+        include wrapup.pug
 
-    include footer.jade
+    include footer.pug
 
